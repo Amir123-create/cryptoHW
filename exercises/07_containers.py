@@ -11,6 +11,8 @@ a_tuple = ('some tuple', 123, 56.0, True, False, 123, 'hello')
 print(a_tuple[0])
 print(a_tuple[2])
 
+#tuples are basically tables that can derive information from the list inside the tuple
+
 # Tuples support two additional methods. count() and index().
 # count() tells you how many times an item appears in a tuple.
 print(a_tuple.count(56.0))

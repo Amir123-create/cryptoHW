@@ -3,4 +3,6 @@
 
 name = input('What is your name? ')
 
+# name = kris
+
 print('hi ' + name)

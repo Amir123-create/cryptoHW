@@ -81,8 +81,10 @@ else:
 
 # The logical NOT operator is sometimes written as ! in other programming languages, but in Python it's just: not
 print('NOT: ')
-hotdog = False
+hotdog = True
 if not hotdog:  # You don't need to write if hotdog == True
   print('not hotdog')
 else:
   print('hotdog')
+
+  # this is not a false when the vaiable hotdog is changed to TRUE

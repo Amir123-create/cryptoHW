@@ -16,3 +16,7 @@ bool(42)
 
 # What happens if you try to convert a string into an integer?
 # e.g. int('hello')
+
+#int('hello') gives an error: synax error near unexpected token "hello"
+
+# the integer function cannot convert between strings and integers
