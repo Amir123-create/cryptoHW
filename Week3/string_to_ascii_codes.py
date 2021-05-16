@@ -9,7 +9,7 @@ from helper_functions import FIX_ME
 def str_to_ascii_codes(input_string):
     for character in input_string:
         # TODO: Replace FIX_ME with the correct function name from above.
-        ascii_code = FIX_ME('TODO: Convert this character into an ascii code') 
+        ascii_code = ord(character)
         print(f'{ascii_code} ', end='')
     print('')
 
